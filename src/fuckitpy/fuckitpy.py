@@ -126,8 +126,12 @@ def clean_py(py_file):
             print('Cannot open {}'.format(py_file))
 
 
-if __name__ == '__main__':
+def main():
     if len(sys.argv) > 1:
         clean_py(sys.argv[1])
     else:
         print('No arguments')
+
+
+if __name__ == '__main__':
+    main()
