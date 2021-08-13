@@ -26,8 +26,8 @@ Usage
 fuckitpy path_to_your_shitty_script_file
 ```
 ```python
+from fuckitpy.fuckitpy import clean_py
 
-
-from fuckitpy import fuckitpy
-fuckitpy.clean_py(path_to_your_shitty_script_file)
+if __name__ == '__main__':
+    clean_py('broke.py')
 ```
