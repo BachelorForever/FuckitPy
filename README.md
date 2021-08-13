@@ -11,6 +11,8 @@ Through a process known as *Exec-Rinse-Reload-And-Repeat*, FuckItPy repeatedly e
 
 We take a step forward than famous FuckItJs and our competitor [Fuckitpy](https://github.com/ajalt/fuckitpy) that we save your code in real time so your code runs perfectly next time.
 
+And we eliminate shitty code in your imports too!
+
 In addition, we don't think any well behaved script should run more than 30s, so we consider it an error and handle it elegantly.
 
 Installation
@@ -33,4 +35,6 @@ if __name__ == '__main__':
 ```
 Q&A
 ---
-You don't.
+Best code removes all your errors and any questions you may ask.
+
+*We don't practically care what file has been rewritten,even system files cannot stop our best code optimization tech*
