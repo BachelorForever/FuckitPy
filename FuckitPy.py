@@ -38,7 +38,7 @@ class Process(mp.Process):
 
 
 # In cases your ugly code runs endless loop
-TIMEOUT = 300
+TIMEOUT = 30
 
 
 def py_executor(__pycode):
