@@ -26,6 +26,8 @@ Usage
 fuckitpy path_to_your_shitty_script_file
 ```
 ```python
-import FuckitPy
+
+
+from src.fuckitpy import FuckitPy
 FuckitPy.clean_py(path_to_your_shitty_script_file)
 ```
