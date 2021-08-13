@@ -114,6 +114,7 @@ class PyClean:
 
 def clean_py(py_file):
     if os.path.isfile(py_file):
+        os.chdir(os.path.dirname(py_file))
         try:
             with open(py_file, 'r+', errors='ignore') as f:
                 o = PyClean(f.read(), os.path.abspath(py_file))

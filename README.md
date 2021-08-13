@@ -7,9 +7,9 @@ FuckItPy uses state-of-the-art technology to make sure your python code runs whe
 Technology
 ----------
 
-Through a process known as *Eval-Rinse-Reload-And-Repeat*, FuckItPy repeatedly execs your code, detecting errors and slicing those lines out of the script.
+Through a process known as *Exec-Rinse-Reload-And-Repeat*, FuckItPy repeatedly execs your code, detecting errors and slicing those lines out of the script.
 
-We take a step forward than famous FuckItJs that we save your code in real time so your code runs perfectly next time.
+We take a step forward than famous FuckItJs and our competitor [Fuckitpy](https://github.com/ajalt/fuckitpy) that we save your code in real time so your code runs perfectly next time.
 
 In addition, we don't think any well behaved script should run more than 30s, so we consider it an error and handle it elegantly.
 
@@ -31,3 +31,6 @@ from fuckitpy.fuckitpy import clean_py
 if __name__ == '__main__':
     clean_py('broke.py')
 ```
+Q&A
+---
+You don't.
